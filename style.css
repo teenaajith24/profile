@@ -1,0 +1,90 @@
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media(max-width: 960px){
+  .container{
+    width: 700px;
+  }
+}
+
+@media(max-width: 720px){
+  .container{
+  width: 500px;
+  }
+}
+
+@media(max-width: 540px){
+  .container{
+  width: 300px;
+  }
+}
+
+body{
+  background-color: #f1fcfc;
+  font-family: 'Roboto Slab', serif;
+  color: #6e5773;
+}
+
+h3{
+  color: #8cba51;
+}
+p{
+  font-size: 20px;
+
+}
+img{
+  width: 200px;
+  border-radius: 100px;
+}
+
+.fab{
+  color: blue;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+.card-white{
+  background-color:  white;
+  text-align:  center;
+  padding: 10px;
+  border: 5px;
+  margin: 10px auto;
+  box-shadow: 4px 2px 2px 1px #deddfa;
+}
+
+.link-header{
+  color: red;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button-yellow{
+  color: #21243D;
+  text-decoration: none;
+  background-color: #fddb3a;
+  padding: 8px 8px 5px 8px;
+  margin: 10px 10px 10px -14px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px 1px #b0a160;
+  text-align: center;
+}
+
+a:hover
+{
+  text-transform: uppercase;
+  color: #633A82;
+}
+
+
+
